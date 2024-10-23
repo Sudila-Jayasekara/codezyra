@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const TypingText = ({ message }) => {
   const [text, setText] = useState('');
-  const speed = 100;
+  const speed = 1000;
 
   useEffect(() => {
     let index = 0;

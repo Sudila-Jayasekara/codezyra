@@ -7,7 +7,7 @@ const HomePage = () => {
     <div className='w-full h-screen flex flex-col items-center justify-center bg-gray-800'>
       <h1 className='text-4xl font-semibold text-white'>
         <ReactTyped
-          strings={["www.codezyra.com", "Welcome Dhanuthi"]}
+          strings={["www.codezyra.com", "Welcome to Codezyra"]}
           typeSpeed={100}
           backSpeed={50}
           backDelay={1000}

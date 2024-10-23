@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import TypingText from './components/TypingText'
 import HomePage from './pages/HomePage'
 
 

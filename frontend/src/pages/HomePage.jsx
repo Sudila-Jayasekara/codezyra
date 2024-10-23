@@ -5,7 +5,7 @@ import { ReactTyped } from "react-typed";
 const HomePage = () => {
   return (
     <div className='w-full h-screen flex flex-col items-center justify-center bg-gray-800'>
-      <h1 className='text-5xl font-semibold text-white'>
+      <h1 className='text-4xl font-semibold text-white'>
         <ReactTyped
           strings={["www.codezyra.com", "Welcome Dhanuthi"]}
           typeSpeed={100}

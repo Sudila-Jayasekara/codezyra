@@ -1,5 +1,5 @@
 import React from 'react';
-import TypingText from '../components/TypingText';
+import TypingText from '../components/reuse/TypingText';
 
 const HomePage = () => {
   return (

@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div className='w-full h-screen flex items-center justify-center bg-gray-800'>
       <h1 className='text-3xl font-semibold text-white'>
-        <TypingText message="Hello"/>
+        <TypingText message="This is test"/>
       </h1>
     </div>
   );

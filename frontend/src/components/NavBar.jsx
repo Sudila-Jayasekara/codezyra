@@ -48,8 +48,8 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className='h-16 pl-4 pr-4 flex justify-between items-center bg-white shadow-sm fixed top-0 right-0 left-0'>
-            <div className='flex justify-start items-center space-x-20 overflow-hidden'>
+        <nav className='h-16 pl-4 pr-4 flex justify-between items-center bg-white shadow-sm fixed top-0 right-0 left-0'>
+            <div className='flex container justify-start items-center space-x-20 overflow-hidden'>
                 {logo()}
                 <div className='hidden md:flex space-x-10'>
                     {navItems.map((item) => (

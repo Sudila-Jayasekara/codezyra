@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div className='md:mt-16 max-w-screen-2xl mx-auto'>
+    <div className='mt-40 max-w-screen-2xl mx-auto'>
       <div className='h-screen pl-32 pr-32'>
         <div>
           1st container

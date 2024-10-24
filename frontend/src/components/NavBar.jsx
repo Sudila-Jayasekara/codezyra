@@ -75,10 +75,10 @@ const NavBar = () => {
             </div>
         </nav>
         {isMenuOpen && (
-            <div className='md:hidden mt-4 pl-4'>
-                <div className='flex flex-col space-y-4'>
+            <div className='md:hidden pt-4 pb-4 bg-primary'>
+                <div className='flex flex-col space-y-10 items-center'>
                     {navItems.map((item) => (
-                        <a key={item.path} href={item.link} className='hover:text-primary'>
+                        <a key={item.path} href={item.link} className='font-bold text-white'>
                             {item.path}
                         </a>
                     ))}

@@ -75,20 +75,13 @@ const NavBar = () => {
             </div>
         </nav>
         {isMenuOpen && (
-            <div className='md:hidden'>
-                <div className='flex flex-col space-y-4 items-center'>
+            <div className='md:hidden mt-4 pl-4'>
+                <div className='flex flex-col space-y-4'>
                     {navItems.map((item) => (
                         <a key={item.path} href={item.link} className='hover:text-primary'>
                             {item.path}
                         </a>
                     ))}
-                    {contactUs()}
-                    <a href="/" className='flex space-x-1 items-center hover:text-primary'>
-                        <p>En</p>
-                        <GrLanguage />
-                    </a>
-                    <a href="/" className='hover:text-primary'><FaRegUser />
-                    </a>
                 </div>
             </div>
         )}

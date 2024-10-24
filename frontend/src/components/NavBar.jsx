@@ -3,7 +3,7 @@ import React from 'react'
 const logo = () => {
     return (
         <a href="/">
-            <span className='text-2xl font-sans font-bold text-orange '>
+            <span className='text-2xl font-sans font-bold text-primary '>
                 CODEZYRA
             </span>
         </a>
@@ -29,7 +29,7 @@ const NavBar = () => {
                 {logo()}
                 <div className='hidden md:flex space-x-10'>
                     {navItems.map((item) => (
-                        <a key={item.path} href={item.link}>
+                        <a key={item.path} href={item.link} className='hover:text-primary'>
                             {item.path}
                         </a>
                     ))}

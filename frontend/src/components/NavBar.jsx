@@ -48,7 +48,7 @@ const NavBar = () => {
 
     return (
         <>
-                <nav className='h-16 pl-4 pr-4 flex justify-between items-center bg-white shadow-md fixed top-0 right-0 left-0'>
+            <nav className='h-16 pl-4 pr-4 flex justify-between items-center bg-white shadow-sm fixed top-0 right-0 left-0'>
             <div className='flex justify-start items-center space-x-20 overflow-hidden'>
                 {logo()}
                 <div className='hidden md:flex space-x-10'>
@@ -76,9 +76,9 @@ const NavBar = () => {
         </nav>
         {isMenuOpen && (
             <div className='md:hidden pt-4 pb-4 bg-primary fixed top-0 right-0 left-0'>
-                <div className='flex flex-col space-y-10 items-center'>
+                <div className='flex flex-col space-y-10 text-lg items-center'>
                     {navItems.map((item) => (
-                        <a key={item.path} href={item.link} className='font-bold text-white'>
+                        <a key={item.path} href={item.link} className=' text-white'>
                             {item.path}
                         </a>
                     ))}

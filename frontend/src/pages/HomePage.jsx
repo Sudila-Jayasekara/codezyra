@@ -1,27 +1,28 @@
-import React, { useState, useEffect } from "react";
+import React from 'react';
 
 const HomePage = () => {
-  const company = "Hello";
-  const [displayedText, setDisplayedText] = useState("");
-
-  const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
-  useEffect( () => {
-    const typeText = async () => {
-      let index = 0;
-      while (index < company.length) {
-        setDisplayedText((prev) => prev + company[index]);
-        index++;
-        await wait(100);
-      };
-    }
-    typeText();
-  }, [company]);
-
   return (
-    <div>
+    <div className='md:mt-16 max-w-screen-2xl mx-auto'>
+      <div className='h-screen pl-32 pr-32'>
+        <div>
+          1st container
+        </div>
+      </div>
+
+      <div className='h-screen pl-32 pr-32 bg-white'>
+        <div>
+          2nd container
+        </div>
+      </div>
+
+      <div className='h-screen pl-32 pr-3'>
+        <div>
+          3rd container
+        </div>
+      </div>
+
     </div>
-  );
+  )
 };
 
 export default HomePage;

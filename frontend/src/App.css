@@ -2,6 +2,7 @@ body {
     background-color: #f7f8fb;
 }
 
-nav{
+/* use to fix navbar in top when scrolling */
+nav{ 
     z-index: 10001 !important;
 }

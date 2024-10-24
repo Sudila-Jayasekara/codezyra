@@ -19,18 +19,7 @@ const HomePage = () => {
   }, [company]);
 
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center bg-gray-800">
-      {/* Main Typing Animation */}
-      <h1 className="text-4xl font-semibold text-white">
-        <p>Welcome to CodeZyra</p>
-        <p className="text-xl">{displayedText}</p> {/* Display the typed text */}
-        <input 
-          type="text" 
-          placeholder="Enter your name" 
-          className="mb-4 p-2 rounded text-black"
-          onChange={(e) => console.log(e.target.value)}
-        />
-      </h1>
+    <div>
     </div>
   );
 };

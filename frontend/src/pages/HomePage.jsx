@@ -24,12 +24,13 @@ const HomePage = () => {
 
 
       <Container bgColor="bg-white">
-        <div className="flex-1 flex justify-center items-end md:items-center ">
-          <h1 className="text-4xl font-bold text-black">Our Mission</h1>
-        </div>
         <div className="flex-1 flex justify-center items-center">
           <img src={bro} alt="bro" className="w-full max-w-md md:max-w-lg" />
         </div>
+        <div className="flex-1 flex justify-center items-end md:items-center ">
+          <h1 className="text-4xl font-bold text-black">Our Mission</h1>
+        </div>
+
       </Container>
 
       <Container bgColor="bg-blue-500">

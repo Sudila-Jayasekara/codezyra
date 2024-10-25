@@ -18,10 +18,10 @@ const HomePage = () => {
     <div className="mt-10 pt-6 max-w-screen-2xl mx-auto">
 
       <Container bgColor="bg-backgroundLightGray">
-        <div className="flex-1 flex justify-center md:justify-start items-end bg-red-200 ">
+        <div className="flex-1 flex justify-center md:justify-start items-end ">
           <h1 className="text-4xl font-bold text-black">About CodeZyra</h1>
         </div>
-        <div className="flex-1 flex justify-center items-center bg-green-200">
+        <div className="flex-1 flex justify-center items-center ">
           <img src={amico} alt="amico" className="w-full max-w-md md:max-w-lg" />
         </div>
       </Container>
